@@ -1,0 +1,19 @@
+{
+  "name": "encrypt-and-hashing",
+  "version": "1.0.0",
+  "description": "data validator",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "nodemon": "^3.1.9"
+  }
+}
