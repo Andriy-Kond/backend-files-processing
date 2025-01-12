@@ -32,8 +32,7 @@ const multerConfig = multer.diskStorage({
   },
 });
 
-const upload = multer({ storage: multerConfig }); // Where to store the files (tempDir + name specified in cb)
-
+const upload = multer({ storage: multerConfig }); // "dest" or "storage": Where to store the files (tempDir + name specified in cb)
 //~ get books from "server"
 app.get("/api/books", (req, res) => {
   res.json(books);
